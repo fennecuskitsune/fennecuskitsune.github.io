@@ -8,7 +8,8 @@ _site/
 .jekyll-metadata
 
 # Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+.bundle/
+vendor/
 
 # Specific ignore for GitHub Pages
 # GitHub Pages will always use its own deployed version of pages-gem 
@@ -19,3 +20,4 @@ Gemfile.lock
 
 # macOS Finder Info files
 .DS_Store
+
